@@ -1,0 +1,47 @@
+      /******* the MINIMAL COMPACT FRAMEWORK******/
+      /* Version Flexbox Grid 1.0 */
+
+      .central_row {
+          margin: 0 auto;
+          display: flex;
+      }
+
+      .wide_row {
+          padding: 20px;
+          display: flex;
+      }
+
+      .flex_col {
+          padding: 20px;
+      }
+
+      .three_col {
+          width: 33.333%;
+      }
+
+      /* le 2 colonne aside */
+      .two_col {
+          width: 50%;
+      }
+
+
+
+      @media (max-width:768px) {
+          
+          .three_col,
+          .two_col {
+              width: 100%;
+          }
+
+          .central_row,
+          .wide_row {
+              width: auto;
+              flex-direction: column;
+          }
+      }
+
+      @media (min-width:960px) {
+          .central_row {
+              width: 960px;
+          }
+      }

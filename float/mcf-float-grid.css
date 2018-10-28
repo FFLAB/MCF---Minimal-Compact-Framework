@@ -1,0 +1,46 @@
+      /******* the MINIMAL COMPACT FRAMEWORK******/
+      /* Version Flexbox Grid 1.0 */
+
+        .central_row {
+            margin: 0 auto;/*allineo al centro il contenitore*/
+        }
+        
+        /* distribuisco in orizzontale le 3 colonne degli articoli con il float*/
+        .float_col{
+            float: left;
+            padding: 20px;
+        }
+
+        .three_col {
+            width: 33.33%;
+        }
+        
+        /* le 2 colonne aside */
+        .two_col {
+            width: 50%;
+        }
+        wide_row{
+            padding: 30px;
+        }
+        .central_row::after,
+        .wide_row:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        @media (max-width:768px) {
+            .three_col,.two_col {
+                width: 100%;
+            }
+
+            .central_row,.wide_row {
+                width: auto;
+            }
+        }
+
+        @media (min-width:960px) {
+            .central_row {
+                width: 960px;
+            }
+        }
