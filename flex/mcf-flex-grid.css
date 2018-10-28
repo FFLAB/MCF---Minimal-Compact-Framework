@@ -51,7 +51,8 @@
           }
 
           .central_row,
-          .wide_row {
+          .wide_row,
+          .flex_menu {
               width: auto;
               flex-direction: column;
           }
