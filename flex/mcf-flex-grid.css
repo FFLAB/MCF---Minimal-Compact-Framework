@@ -31,6 +31,16 @@
       .two_col {
           width: 50%;
       }
+      /* Menu Nav*/
+      .flex_menu{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .menu_item{
+        justify-content: space-around;
+    }
 
    /* MEDIA QUERY */
 
