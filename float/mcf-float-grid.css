@@ -1,11 +1,18 @@
       /******* the MINIMAL COMPACT FRAMEWORK******/
       /* Version float Grid 1.0 */
 
+        /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        box-sizing: border-box;
+       }
+
         .central_row {
-            margin: 0 auto;/*allineo al centro il contenitore*/
+            margin: 0 auto;
         }
         
-        /* distribuisco in orizzontale le 3 colonne degli articoli con il float*/
         .float_col{
             float: left;
             padding: 20px;
@@ -15,7 +22,6 @@
             width: 33.33%;
         }
         
-        /* le 2 colonne aside */
         .two_col {
             width: 50%;
         }
