@@ -10,24 +10,23 @@
           padding: 20px;
           display: flex;
       }
-
+      /* basic padding */
       .flex_col {
           padding: 20px;
       }
-
+      /* three columns */
       .three_col {
           width: 33.333%;
       }
 
-      /* le 2 colonne aside */
+      /* two columns */
       .two_col {
           width: 50%;
       }
 
+   /* MEDIA QUERY */
 
-
-      @media (max-width:768px) {
-          
+      @media (max-width:768px) {  
           .three_col,
           .two_col {
               width: 100%;
