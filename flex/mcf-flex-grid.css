@@ -24,6 +24,11 @@
       .flex_col {
           padding: 20px;
       }
+      /* foor columns */
+      .four_col {
+        width: 25%;
+    }
+
       /* three columns */
       .three_col {
           width: 33.333%;
@@ -48,7 +53,8 @@
 
       @media (max-width:768px) {  
           .three_col,
-          .two_col {
+          .two_col,
+          .four_col {
               width: 100%;
           }
 
